@@ -1,0 +1,46 @@
+.blauclar{
+    /*background defineix el color del recuadre*/
+    background-color: rgb(79, 96, 170);
+    /*amb left top definim els marges i amb widht i height el tamany dels recuadres*/
+    left: 20px;
+    width: 160px;
+    height: 120px;
+    top: 40px;
+    position: absolute;
+    /*z-index indica la posicio de la capa en aquest cas esta en una superior que el quadre vermell*/
+    z-index: 2;
+    /*border defineix les vores del quadre */
+    border: 1px solid #4221ad;
+}
+
+.groc{
+    background-color: yellow;
+    left: 20px;
+    bottom: 60px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border: 1px solid #789021;
+}
+
+.vermell{
+    background-color: red;
+    left: 100px;
+    width: 160px;
+    height: 120px;
+    position: absolute;
+    top: 140px;
+    z-index: 1;
+    border: 1px solid #741316;
+}
+
+.verd{
+    background-color: rgb(76, 149, 76);
+    left: 100px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 60px;
+    border: 1px solid #065807;
+    
+}
